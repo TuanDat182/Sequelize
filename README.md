@@ -1,5 +1,12 @@
 # Luyện tập làm việc với dependencies
 
+## Cách chạy dự án
+*Đầu tiên cần bật dịch vụ mysql của bạn*
+npm install
+npx sequelize-cli migrate
+npx sequelize-cli seed 
+npm run dev
+
 ## Cấu trúc dự án
 
 server
